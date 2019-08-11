@@ -1,0 +1,92 @@
+body {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  background-attachment: fixed;
+  margin: 5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App{
+  text-align: left;
+  margin: 2% 5% 2% 5%;
+}
+
+.inputBox {
+  height: 50px;
+  padding: 5px 10px 5px 10px;
+  background-color: white;
+  width: 90%;
+  font-size: 22px;
+  font-family: inherit;
+  border: none;
+  align-content: center;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.inputBox::placeholder {
+  color: #537895;
+  font-size: 20px;
+  vertical-align: center; 
+}
+
+.inputBox:focus {
+  outline: none;
+}
+.buttonBox{
+  width:10%;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  outline: none;
+}
+
+.buttonBox:hover{
+  font-weight: bolder;
+  font-size: 40px;
+  color: #003668;
+}
+
+
+.inputContainer{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0rem 1.0rem 1rem #09203f;
+}
+
+.itemStyle{
+  color: white;
+  margin: 2px;
+  padding: 2px;
+
+}
+
+.taskContainer{
+  margin-top:5%;
+  margin-bottom: 5%;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.heading{
+  color: white;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-weight: bold; 
+  margin-top:3%;
+  margin-bottom: 3%;
+  letter-spacing: -1px; 
+  line-height: 1; 
+}
+
+.doneTask{
+  text-decoration: line-through;
+  color: #84a6be;
+}
